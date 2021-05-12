@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
-//const uri = process.env.MONGODB_URI;
-const connectionString = "mongodb://localhost:27017/data";
+const uri = process.env.MONGODB_URI;
+//const connectionString = "mongodb://localhost:27017/data";
 //database connection
-mongoose.connect(connectionString,{
+mongoose.connect(uri,{
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useFindAndModify: false

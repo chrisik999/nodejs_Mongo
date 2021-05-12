@@ -1,0 +1,9 @@
+Get all users  url = https://crud-ops-chris.herokuapp.com/users/      method = GET
+
+Get a user  url = https://crud-ops-chris.herokuapp.com/users/id       method = GET
+
+Add a user  url = https://crud-ops-chris.herokuapp.com/users/         method = POST         body = a json object containg name, email and country
+
+Update a user  url = https://crud-ops-chris.herokuapp.com/users/      method = PUT          body = a json object containg name, email and country
+
+Delete a user  url = https://crud-ops-chris.herokuapp.com/users/id    method = Delete
